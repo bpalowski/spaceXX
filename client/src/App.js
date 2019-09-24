@@ -8,7 +8,7 @@ import './App.css';
 import Spacex from './spacex.png';
 
 const client = new ApolloClient({
-  uri: '/graphql'
+  uri: 'http://localhost:5000/graphql'
 });
 //test
 class App extends PureComponent {
